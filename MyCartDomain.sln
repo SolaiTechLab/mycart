@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartApplication", "MyCart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartApplication.Test", "MyCartApplication.Test\MyCartApplication.Test.csproj", "{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6E4DB014-3D21-410C-A4AF-5590F12293AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{116EA5CE-038B-415B-BBEA-A0CD949F3361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EF0F04E-0F39-4023-939A-AF921F6D7E39} = {116EA5CE-038B-415B-BBEA-A0CD949F3361}
+		{0533BBF3-3B77-4768-8AAE-6A6D602C9FED} = {116EA5CE-038B-415B-BBEA-A0CD949F3361}
+		{00FD954C-EA1A-445D-8A7F-89FB8BDAA388} = {6E4DB014-3D21-410C-A4AF-5590F12293AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24A8C489-E638-44E7-B990-AE9BCC6152EB}

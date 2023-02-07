@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartDomain", "MyCartDomain\MyCartDomain.csproj", "{5EF0F04E-0F39-4023-939A-AF921F6D7E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCartDomain", "MyCartDomain\MyCartDomain.csproj", "{5EF0F04E-0F39-4023-939A-AF921F6D7E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartApplication", "MyCartApplication\MyCartApplication.csproj", "{0533BBF3-3B77-4768-8AAE-6A6D602C9FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartApplication.Test", "MyCartApplication.Test\MyCartApplication.Test.csproj", "{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5EF0F04E-0F39-4023-939A-AF921F6D7E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF0F04E-0F39-4023-939A-AF921F6D7E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF0F04E-0F39-4023-939A-AF921F6D7E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0533BBF3-3B77-4768-8AAE-6A6D602C9FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0533BBF3-3B77-4768-8AAE-6A6D602C9FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0533BBF3-3B77-4768-8AAE-6A6D602C9FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0533BBF3-3B77-4768-8AAE-6A6D602C9FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FD954C-EA1A-445D-8A7F-89FB8BDAA388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,3 +5,5 @@
 /MyCartDomain/obj
 /MyCartDomain/bin/Debug/net6.0
 /.vs
+/MyCartApplication/obj
+/MyCartApplication.Test/obj
